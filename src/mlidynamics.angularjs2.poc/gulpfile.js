@@ -65,6 +65,7 @@ gulp.task('ts', function () {
     ])
         .pipe(ts(tsProject), undefined, ts.reporter.fullReporter());
 
+    // copy css and templates
     gulp.src('css/*.css',
         {
             cwd: "app-ts/**"
