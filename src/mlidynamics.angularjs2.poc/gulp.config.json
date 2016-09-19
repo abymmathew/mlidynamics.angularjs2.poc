@@ -1,0 +1,42 @@
+﻿{
+  "folders": {
+    "root": "./wwwroot",
+    "rootJs": "./wwwroot/js/",
+    "ts2js": "./wwwroot/lib/"
+  },
+  "paths": {
+    "js": "./wwwroot/js/**/*.js",
+    "minJs": "./wwwroot/js/**/*.min.js",
+    "css": "./wwwroot/css/**/*.css",
+    "minCss": "./wwwroot/css/**/*.min.css",
+    "concatJsDest": "./wwwroot/js/site.min.js",
+    "concatCssDest": "./wwwroot/css/site.min.css"
+  },
+  "sources": {
+    "jsFilesInclSourcePaths": [
+      "node_modules/core-js/client/shim.min.js",
+      "node_modules/zone.js/dist/zone.js",
+      "node_modules/reflect-metadata/Reflect.js",
+      "node_modules/systemjs/dist/system.src.js",
+      "node_modules/jquery/dist/jquery.js",
+      "node_modules/bootstrap/dist/js/bootstrap.js"
+    ],
+    "node_modules_js": [
+      "es6-shim/es6-shim.min.js",
+      "systemjs/dist/system-polyfills.js",
+      "systemjs/dist/system.src.js",
+      "reflect-metadata/Reflect.js",
+      "rxjs/**",
+      "zone.js/dist/**",
+      "core-js/client/**",
+      "@angular/**",
+      "jquery/dist/jquery.*js",
+      "bootstrap/dist/js/bootstrap.*js"
+    ],
+    "node_modules_css": [
+      "bootstrap/dist/css/bootstrap.css"
+    ],
+    "angularRC": "node_modules/@angular/**/*.*",
+    "Rxjs": "node_modules/rxjs/**/*.*"
+  }
+}

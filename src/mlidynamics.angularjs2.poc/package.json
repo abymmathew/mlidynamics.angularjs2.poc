@@ -1,0 +1,69 @@
+{
+  "name": "ng2app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "angular-cli": { },
+  "scripts": {
+    "start": "tsc && gulp get:started && concurrently \"npm run tsc:w\" \"dotnet run\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "cleanup": "rimraf node_modules && rimraf typings"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "@angular/upgrade": "2.0.0",
+    "@angular/platform-server": "2.0.0",
+    "@angular/compiler-cli": "0.6.2",
+      
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.27",
+    "zone.js": "^0.6.23",
+
+    "angular2-in-memory-web-api": "0.0.20",
+    "bootstrap": "^3.3.6",
+    "jquery": "2.2.4"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "^1.5.3",
+    "gulp-typescript": "^2.13.6",
+
+    "run-sequence": "^1.1.5",
+
+    "concurrently": "^2.2.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.2",
+    "typings": "^1.3.2",
+
+    "canonical-path": "0.0.2",
+    "http-server": "^0.9.0",
+    "tslint": "^3.7.4",
+    "lodash": "^4.11.1",
+    "jasmine-core": "~2.4.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-cli": "^0.1.2",
+    "karma-htmlfile-reporter": "^0.2.2",
+    "karma-jasmine": "^0.3.8",
+    "protractor": "^3.3.0",
+    "rimraf": "^2.5.2"
+  }
+}
+

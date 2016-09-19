@@ -243,3 +243,11 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/src/mlidynamics.angularjs2.poc/wwwroot/css/styles.css
+/src/mlidynamics.angularjs2.poc/wwwroot/css/heroes.component.css
+/src/mlidynamics.angularjs2.poc/wwwroot/css/hero-detail.component.css
+/src/mlidynamics.angularjs2.poc/wwwroot/css/dashboard.component.css
+/src/mlidynamics.angularjs2.poc/wwwroot/css/app.component.css
+/src/mlidynamics.angularjs2.poc/wwwroot/app
+/src/mlidynamics.angularjs2.poc/wwwroot/templates
+/src/mlidynamics.angularjs2.poc/wwwroot/lib
